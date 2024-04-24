@@ -49,76 +49,9 @@ public class App {
             System.out.println((i+1)+"->"+listado[i].toString());
         }
 
-        // Amigo amigo1 = new Amigo();
-        // Amigo amigo2 = new Amigo("Pedro", "9521234564", false);
-
-        // System.out.println(amigo1);
-        // System.out.println(amigo2);
-
-        // amigo1.setNombre("Luis");
-        // amigo1.setTelefono("952292929");
-        // amigo1.setAsistencia(true);
-
-        // System.out.println(amigo1);
-
-        // System.out.println("***");
-        // amigo1.setTelefono("1234567890"); // más digitos
-        // System.out.println(amigo1);
-        // amigo1.setTelefono("123"); // menos digitos
-        // System.out.println(amigo1);
-        // amigo1.setTelefono(""); // sin digitos
-        // System.out.println(amigo1);
-        // amigo1.setTelefono(null); // null
-        // System.out.println(amigo1);
-        // amigo1.setTelefono("*12345678"); // letras, la primera.
-        // System.out.println(amigo1);
-        // amigo1.setTelefono("12345678 "); // letras, la última.
-        // System.out.println(amigo1);
-        // amigo1.setTelefono("1234.6789"); // letras, la última.
-        // System.out.println(amigo1);
-        // int tamano = 0;
-        // String respuesta = null;
-
-        // do {
-        // try {
-        // System.out.println("Introduce el número de amigos q vienen a la fiesta
-        // [1..6]");
-        // tamano = teclado.nextInt();
-
-        // } catch (InputMismatchException e) {
-        // } finally {
-        // teclado.nextLine();
-        // }
-        // } while (tamano < 1 || tamano > 6);
-
-        // String[] listado = new String[tamano];
-        // System.out.println();
-        // System.out.println();
-        // System.out.println("*** Introducción de nombres ***");
-        // System.out.println();
-        // for (int i=0; i<listado.length;i++){
-        // System.out.print((i+1)+"->Nombre: ");
-        // listado[i]=teclado.nextLine();
-        // }
-        // System.out.println();
-        // System.out.println();
-        // System.out.println("*** Listado de amigos ***");
-        // System.out.println();
-        // for (int i=0; i<listado.length;i++){
-        // System.out.println((i+1)+"-> "+listado[i]);
-        // }
-
+        
         teclado.close();
 
-        // do {
-        // System.out.println("Introduce num ENTERO entre [1..6]");
-        // respuesta = teclado.nextLine();
-        // if (respuesta.length()==1){
-        // tamano = respuesta.charAt(0)-48;
-        // }
-        // System.out.println(tamano);
-
-        // } while (tamano<1 || tamano>6);
 
     }
 }
